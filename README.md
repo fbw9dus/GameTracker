@@ -1,8 +1,12 @@
 # GameTracker
 Application for hosting Pingpong Tournaments
 
+- Arbeitet in Gruppen von vier bis fünf Leuten
+- Verteilt unter euch die Aufgaben
+
 ## TODOs
 ### Benutzeroberfläche (HTML + CSS)
+- Erstellt eine Zeichnung oder ein Layout von der Benutzeroberfläche, bevor ihr beginnt HTML und CSS zu schreiben
 #### Elemente
 - Spielerliste mit Punktzahl jedes Spielers
 - Textfeld und Button um Spieler hinzuzufügen
@@ -13,17 +17,29 @@ Application for hosting Pingpong Tournaments
 
 ### Logik (JavaScript)
 #### Aufbau
-- Meisterschaft
+- Meisterschaft-Objekt
+  - Liste der Spieler
   - Liste der gespielten Spiele
   - Wieviele Spiele noch zu spielen
-- Spiel
+- Spiel-Objekt
   - Gegner
   - Sieger
-- Spieler
+- Spieler-Objekt
   - Punkte
   
 - Objekt für Einstellungen
   - Anzahl der Sätze pro Spiel
+#### Ablauf eines Turniers
+- Spielername wird ins Textfeld eingetragen
+- Bei Klick auf den Hinzufügen-Button, wird eine Funktion aufgerufen, die ein neues Spieler-Objekt mit dem Namen erstellt und in die Spieler-Liste im Turnier-Objekt hinzufügt
+- Wenn alle Spieler eingetragen sind, klickt man auf den Start-Button
+- Dies ruft eine Funktion auf, die eine neues Spiel-Objekt erstellt und es in die Spiele-Liste im Turnier-Objekt hinzufügt
+- Beim Erstellen des Spiel-Objekts können als Parameter die beiden Gegner übergeben werden
+- Wenn keine Spieler übergeben werden, lost das Programm die Gegner aus
+
+  
+## Deployment
+- Stellt euer Programm auf GitHub pages online
 
 ## Hilfe
 ###### Text aus Textfeld
