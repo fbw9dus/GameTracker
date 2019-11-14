@@ -39,6 +39,9 @@ Application for hosting Pingpong Tournaments
 - Das spiel wird gestartet, es werden die Gegner-Namen angezeigt und darunter die Spieler-Punkte des aktuellen Spiels
 - Unter jedem Gegner-Namen ist ein Button um signalisieren, dass der Gegner den Satz gewonnen hat
 - Wenn dieser Button gedrückt wird, wird ein Punkt beim Gewinner hinzugefügt
+- Wenn das Spiel zu ende ist, wird der Gewinner im Spiel-Objekt gespeichert
+- Daraufhin wird das nächste Spiel mit neuen Gegnern erzeugt
+- In den Finalspielen muss das Programm feststellen, wer die Gewwinner der Vorrundenspiele sind um die Gegner zu paaren
   
 ## Deployment
 - Stellt euer Programm auf GitHub pages online
