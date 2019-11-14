@@ -34,9 +34,11 @@ Application for hosting Pingpong Tournaments
 - Bei Klick auf den Hinzufügen-Button, wird eine Funktion aufgerufen, die ein neues Spieler-Objekt mit dem Namen erstellt und in die Spieler-Liste im Turnier-Objekt hinzufügt
 - Wenn alle Spieler eingetragen sind, klickt man auf den Start-Button
 - Dies ruft eine Funktion auf, die eine neues Spiel-Objekt erstellt und es in die Spiele-Liste im Turnier-Objekt hinzufügt
-- Beim Erstellen des Spiel-Objekts können als Parameter die beiden Gegner übergeben werden
+- Beim Erstellen des Spiel-Objekts können als Parameter die beiden Gegner übergeben werden(für Final-Runden)
 - Wenn keine Spieler übergeben werden, lost das Programm die Gegner aus
-
+- Das spiel wird gestartet, es werden die Gegner-Namen angezeigt und darunter die Spieler-Punkte des aktuellen Spiels
+- Unter jedem Gegner-Namen ist ein Button um signalisieren, dass der Gegner den Satz gewonnen hat
+- Wenn dieser Button gedrückt wird, wird ein Punkt beim Gewinner hinzugefügt
   
 ## Deployment
 - Stellt euer Programm auf GitHub pages online
